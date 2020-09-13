@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+  <div class="jumbotron">
+    <div class="card">
+      <div class="card-header">
+        Store
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{store.name}}</h5>
+        <p class="card-text">{{store.description}}</p>
+      </div>
+    </div>
+  </div>
+
+{% endblock content %}
